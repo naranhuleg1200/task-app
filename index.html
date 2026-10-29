@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>タスク管理アプリ</title>
+</head>
+<body>
+    <main>
+        <h1 class="appTitle">タスク管理アプリ</h1>
+        <h2 class="appSubTitle">シンプルで使いやすいタスク管理ツール</h2>
+        <div class="inputArea">
+            <input type="text" id="taskInput" name="task" placeholder="新しいタスクを入力してください">
+            <button type="submit" class="button">追加</button>
+        </div>
+        <div class="completionArea">
+        <!-- 完了数 -->
+         <p id="taskCount">
+        完了したタスク：<span class="count">0</span>
+        </p>
+        </div>
+
+        <div id="taskList">
+        <!-- JavaScriptでタスクを追加する場所 -->
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
